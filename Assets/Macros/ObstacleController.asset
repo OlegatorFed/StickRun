@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: ObstacleController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-13.36111,"y":33.80555},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"aa99ee04-1665-4cca-a246-67901df3569e","$version":"A","$type":"Bolt.Start"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":163.0,"y":-1.0},"guid":"6ab7d7e7-2387-49c8-b36c-3c46537368a4","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-236.0,"y":127.0},"guid":"e4a02b43-d0de-4bf5-85c8-549ac0a2452c","$version":"A","$type":"Bolt.GetMember","$id":"14"},{"defaultValues":{"b":{"x":0.0,"y":-0.01,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-52.0,"y":103.0},"guid":"fed2934a-dd90-45bd-a4ae-d6a8393874b0","$version":"A","$type":"Bolt.Vector3Add","$id":"17"},{"coroutine":false,"defaultValues":{},"position":{"x":-339.0,"y":-33.0},"guid":"5efabf90-f4f7-4a70-8629-1f95c7446828","$version":"A","$type":"Bolt.FixedUpdate","$id":"19"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"6d9a2698-fccf-4d05-a37d-214650546e63","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"a","guid":"1671ef36-538d-4bc8-b08a-6207752151f4","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"sum","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"4a205145-0251-43a8-b9b5-a326e16cfefb","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

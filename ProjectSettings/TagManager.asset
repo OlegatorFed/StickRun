@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AudioButtom
   - DataStorage
+  - StickMan
   layers:
   - Default
   - TransparentFX

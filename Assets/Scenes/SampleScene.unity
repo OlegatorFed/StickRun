@@ -428,9 +428,9 @@ GameObject:
   m_Component:
   - component: {fileID: 719442834}
   - component: {fileID: 719442833}
-  - component: {fileID: 719442832}
   - component: {fileID: 719442831}
   - component: {fileID: 725781491}
+  - component: {fileID: 719442832}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
@@ -464,9 +464,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 719442830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 2
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &719442833
 Canvas:
   m_ObjectHideFlags: 0
@@ -1287,8 +1298,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 96.19995, y: -80.97504}
-  m_SizeDelta: {x: 59.09, y: 59.09}
+  m_AnchoredPosition: {x: 48.7, y: -40}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055324435
 MonoBehaviour:
@@ -1439,8 +1450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4.834938, y: -81.26001}
-  m_SizeDelta: {x: 478.18, y: 58.52}
+  m_AnchoredPosition: {x: -0.000015258789, y: -40}
+  m_SizeDelta: {x: 327.83, y: 58.52}
   m_Pivot: {x: 0.49999997, y: 0.5}
 --- !u!114 &1075635413
 MonoBehaviour:
@@ -1496,10 +1507,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 22769c7ed8d9a20469eb99867a3a9814, type: 3}
-    m_FontSize: 36
+    m_FontSize: 22
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 91
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2223,8 +2234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -85, y: -82}
-  m_SizeDelta: {x: 62.15, y: 60}
+  m_AnchoredPosition: {x: -43, y: -40}
+  m_SizeDelta: {x: 32.7, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108226481
 MonoBehaviour:

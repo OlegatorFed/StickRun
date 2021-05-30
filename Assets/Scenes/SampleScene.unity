@@ -463,9 +463,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"StMan","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"StMan","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"FirstConsume","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"BigStickMan","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 4324322502046186025, guid: 338d07b91d318a742a6082263aaf7bbc, type: 3}
+    - {fileID: 1900458211763132609, guid: 0ca963b608e1dad4d8ab1e1c1d190eb1, type: 3}
 --- !u!61 &841615740
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -554,10 +555,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"gameSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"timePassed","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"totalScore","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"stickmansDied","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CheckTap","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ClickPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"TransformationZone","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StickmanPrefab","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CountOfEl","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"EnoughElements","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NumberOfConsumed","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"StickManCounter","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"GameSpeedTimer","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ObstaclesSpeed","value":{"$content":-0.05,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"gameSpeed","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"timePassed","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"totalScore","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"stickmansDied","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CheckTap","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"ClickPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"TransformationZone","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"StickmanPrefab","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CountOfEl","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"EnoughElements","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NumberOfConsumed","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"StickManCounter","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"GameSpeedTimer","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ObstaclesSpeed","value":{"$content":-0.05,"$type":"System.Single"},"$version":"A"},{"name":"BigsStickManPref","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2095550018}
     - {fileID: 4324322502046186025, guid: 338d07b91d318a742a6082263aaf7bbc, type: 3}
+    - {fileID: 1900458211763132609, guid: 0ca963b608e1dad4d8ab1e1c1d190eb1, type: 3}
 --- !u!4 &853423301
 Transform:
   m_ObjectHideFlags: 0

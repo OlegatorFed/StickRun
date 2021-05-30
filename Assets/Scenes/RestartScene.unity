@@ -467,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -49, y: 52.899994}
+  m_AnchoredPosition: {x: -49, y: 52.900024}
   m_SizeDelta: {x: 38, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &698392709
@@ -855,7 +855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 53, y: 52.899994}
+  m_AnchoredPosition: {x: 53, y: 52.900024}
   m_SizeDelta: {x: 24.9473, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951773604
@@ -1286,11 +1286,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ef9762cda646b4d40a8544a6b3f5231e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 98c0e66e6cd82e74083e349eda527dd0, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"ButtonSound","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Camera","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1078814740}
-    - {fileID: 0}
+    - {fileID: 519420028}
 --- !u!4 &1649711081
 Transform:
   m_ObjectHideFlags: 0

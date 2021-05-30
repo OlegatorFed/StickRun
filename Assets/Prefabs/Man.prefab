@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1206981189038826078}
   - component: {fileID: 5102905678000800622}
   - component: {fileID: 2474963344561434108}
+  - component: {fileID: -7072797888865761105}
   m_Layer: 0
   m_Name: Man
   m_TagString: Untagged
@@ -114,4 +115,30 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 7f9578702423eef4ebb39410f956c938, type: 2}
+    - {fileID: 11400000, guid: 6532820148a09b14aacef766efc7d9bb, type: 2}
+--- !u!61 &-7072797888865761105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4874444053226859828}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

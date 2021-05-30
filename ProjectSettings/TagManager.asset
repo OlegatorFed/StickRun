@@ -8,6 +8,7 @@ TagManager:
   - DataStorage
   - StickMan
   - But
+  - BigStickMan
   layers:
   - Default
   - TransparentFX

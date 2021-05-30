@@ -9,6 +9,7 @@ TagManager:
   - StickMan
   - But
   - BigStickMan
+  - CharTransAnim
   layers:
   - Default
   - TransparentFX
